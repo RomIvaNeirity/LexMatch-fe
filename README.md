@@ -5,7 +5,8 @@
 ---
 
 ## 🎯 **Core Concept**
-**An advanced legal-tech solution designed to analyze court rulings for legislative compliance and predictive judicial modeling. The platform enables legal professionals to compare different court decisions and estimate the probability of a specific outcome based on a judge's historical rulings in analogous cases.**
+**An advanced legal-tech solution designed to analyze court rulings for legislative compliance and predictive judicial modeling. The platform enables legal professionals to compare different court decisions and estimate the probability of a specific outcome based on a judge's historical rulings in analogous cases.
+It involves the use of AI tools (such as GliNER) for text analysis.**
 
 ---
 
