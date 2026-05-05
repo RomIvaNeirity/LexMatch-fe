@@ -1,73 +1,36 @@
-# React + TypeScript + Vite
+# ⚖️ LexMatch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### **Legal-Tech Analytical Platform**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎯 **Core Concept**
+**An advanced legal-tech solution designed to analyze court rulings for legislative compliance and predictive judicial modeling. The platform enables legal professionals to compare different court decisions and estimate the probability of a specific outcome based on a judge's historical rulings in analogous cases.**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 **Key Contributions & Features**
 
-## Expanding the ESLint configuration
+* **Judicial Predictive Modeling**
+    * Developing a module to calculate the "probability of outcome" by analyzing a judge's historical patterns in similar legal disputes.
+* **Comparative Decision Engine**
+    * Implementing a system for side-by-side comparison of multiple court rulings to identify inconsistencies or precedents.
+* **Legal Compliance Analysis**
+    * Building logic to cross-reference court decision text against active legislation to flag potential discrepancies.
+* **High-Performance Frontend**
+    * Engineering a "clean component" architecture using **React** and **Vite**, ensuring **no any types** in TypeScript and strict separation of concerns (external styling/modules).
+* **Scalable Backend API**
+    * Designing a robust RESTful API using **NestJS** to handle complex data de-identification and text extraction from legal PDFs.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠 **Tech Stack**
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* **Frontend:** React, Vite, TypeScript, State Management (**Redux Toolkit**), Material UI (MUI).
+* **Backend:** NestJS, Node.js, PostgreSQL (**Prisma**).
+* **Cloud & DevOps:** Docker, GitHub Actions (CI/CD), PDF Text Extraction Services.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🔗 **Links**
+* **Backend Repository:** [https://github.com/RomIvaNeirity/LexMatch-be](https://github.com/RomIvaNeirity/LexMatch-be)
